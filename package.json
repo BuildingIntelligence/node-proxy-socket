@@ -1,0 +1,37 @@
+{
+  "name": "node-proxy-socket",
+  "version": "1.0.0",
+  "description": "HTTP proxy client for raw sockets",
+  "main": "proxy.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildingIntelligence/node-proxy-socket.git"
+  },
+  "keywords": [
+    "proxy",
+    "client",
+    "http",
+    "https",
+    "tls",
+    "socket"
+  ],
+  "author": "Travis Sinnott",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BuildingIntelligence/node-proxy-socket/issues"
+  },
+  "homepage": "https://github.com/BuildingIntelligence/node-proxy-socket#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
