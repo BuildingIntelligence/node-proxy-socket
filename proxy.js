@@ -4,10 +4,8 @@ var ProxySocket = require('./proxy_socket.js');
 
 
 var Proxy = modules.export = function(options){
-	_.defaults(options, {
-		port: 8123,
-		host: 'localhost'
-	});
+	options = 
+	this.socket = new ProxySocket(options)
 }
 
 /* Factory method */
